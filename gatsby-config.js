@@ -36,5 +36,13 @@ module.exports = {
       // Plugins configs
       plugins: [],
     }
+  },
+  {
+    resolve: "gatsby-plugin-react-svg",
+    options: {
+      rule: {
+        include: /content/ // See below to configure properly
+      }
+    }
   }]
 };
