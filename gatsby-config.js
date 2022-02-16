@@ -7,7 +7,7 @@ module.exports = {
   {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "src/content/images/icon.png"
     }
   }, 
   "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
@@ -25,5 +25,16 @@ module.exports = {
       "name": "posts",
       "path": "./src/content/blog"
     },
+  },
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      // Footnotes mode (default: true)
+      footnotes: true,
+      // GitHub Flavored Markdown mode (default: true)
+      gfm: true,
+      // Plugins configs
+      plugins: [],
+    }
   }]
 };
