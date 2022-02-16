@@ -13,12 +13,11 @@ const IndexPage = () => {
       {/* TODO: SEO Goes here */}
       <Hero />
       <Services />
-      {/* Blog? */}
+      {/* Blog */}
       <ExtraInfo />
       {/* Blog2 */}
       {/* Hero2 */}
       <Contact />
-
       <Footer/>
     </Layout>
   )
