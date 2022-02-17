@@ -230,6 +230,7 @@ img {
 
                 img {
                     transform: translateX(10%);
+                    object-fit: contain !important;
                 }
             }
 
