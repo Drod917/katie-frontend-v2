@@ -1,0 +1,51 @@
+
+.service-card {        
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        height: 370px;
+        width: 350px;
+        box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.2);
+
+        a {
+            color: #0f0f0f !important;
+
+            &:hover {
+                color: #0f0f0f !important;
+            }
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 100;
+            font-style: italic;
+            text-align: center;
+            line-height: 2rem;
+            width: 80%;
+            color: #555c66 !important;
+        }
+
+        .circle-icon {
+            background-color: #dca486;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .more-info {
+            h1 {
+                text-decoration: underline;
+                font-weight: 400;
+            }
+        }
+    }
+}

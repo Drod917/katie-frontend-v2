@@ -3,12 +3,14 @@ img {
     clip-path: circle();
 }
 
+.hero {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 
 .hero-images {
     display: flex;
     flex-direction: column;
-    margin-top: 3em;
-    margin-bottom: 3em;
 
 
     .hero-circle {
@@ -54,20 +56,24 @@ img {
 .hero-heading {
     display: flex;
     flex-direction: column;
-    align-items: end;
-    line-height: 3rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 2.5rem;
+    margin-top: 3em;
 
     h1.title {
         font-family: 'Raleway', sans-serif;
+        text-align: end;
         font-weight: 700;
         font-size: 1.4rem;
         letter-spacing: 0.4rem;
     }
 
     h1.sub-title {
+        margin-top: 0.6em;
+        width: 80%;
         text-align: end;
-        width: 90%;
-        font-size: 2.3rem;
+        font-size: 2.2rem;
         font-family: 'Playfair Display', serif;
     }
 
