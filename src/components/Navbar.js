@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticImage } from "gatsby-plugin-image";
+import MenuIcon from '../content/images/menu.svg';
 
 import './Navbar.scss';
 
@@ -7,9 +7,8 @@ const Navbar = () => {
 
     return (
         <header className='nav'>
-            <h1>Navbar</h1>
-            <StaticImage src="../content/images/menu.svg" alt="menu"/>
-
+            <h1>KBHair</h1>
+            <MenuIcon />
         </header>
     )
 }

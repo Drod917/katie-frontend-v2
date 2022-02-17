@@ -6,11 +6,12 @@ import Hero from '../components/sections/Hero';
 import Services from '../components/sections/Services';
 import ExtraInfo from '../components/sections/ExtraInfo';
 import Contact from '../components/sections/Contact';
+import SEO from '../components/SEO';
 
 const IndexPage = () => {
   return (
     <Layout>
-      {/* TODO: SEO Goes here */}
+      <SEO />
       <Hero />
       <Services />
       {/* Blog */}

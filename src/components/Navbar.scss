@@ -1,5 +1,11 @@
 .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
     svg {
+        width: 2em;
         stroke: black;
 
         path {
