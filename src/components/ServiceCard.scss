@@ -49,3 +49,12 @@
         }
     }
 }
+
+@media screen and (min-width: 576px) {
+    .service-card {
+        .content-wrapper {
+            height: 400px;
+            width: 300px;
+        }
+    }
+}

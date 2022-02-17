@@ -7,12 +7,18 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-images">
-        <div className="img-wrapper hero-1">
-          <StaticImage quality={100} src="../../content/images/hero1.jpg" alt="hero1" />
-        </div>
-        <StaticImage quality={100} className="hero-2" height={500} width={500} objectFit="contain" src="../../content/images/hero2.jpg" alt="hero1" />
+        <StaticImage style={{width: '60%'}} quality={100} src="../../content/images/hero1.jpg" alt="hero1" />
         <div className="hero-circle" />
-        <StaticImage quality={100} className="hero-3" src="../../content/images/hero3.jpg" alt="hero1" />
+        <div className="hero-image-stack">
+          <StaticImage 
+            quality={100}
+            style={{height: '350px'}}
+            className="hero-2"
+            objectFit="cover" 
+            src="../../content/images/hero2.jpg"
+            alt="hero2" />
+          <StaticImage quality={100} className="hero-3" src="../../content/images/hero3.jpg" alt="hero3" />
+        </div>
       </div>
       <div className="hero-heading">
         <h1 className="title">BEAUTY SALON</h1>
