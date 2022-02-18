@@ -6,7 +6,7 @@ import './ServiceCard.scss';
 const ServiceCard = ({ title, description, ...restProps }) => {
   return (
     <div className="service-card">
-        <div className="content-wrapper">
+        <div className="card-wrapper">
             <div className="circle-icon" />
             <h1>{title}</h1>
             <p>{description}</p>

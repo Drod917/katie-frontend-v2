@@ -9,6 +9,7 @@ import Contact from '../components/sections/Contact';
 import SEO from '../components/SEO';
 
 const IndexPage = () => {
+  
   return (
     <Layout>
       {/* eslint-disable-next-line */}
