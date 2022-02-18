@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 // import PropTypes from 'prop-types'
+import { StaticImage } from 'gatsby-plugin-image';
 
 const ExtraInfo = props => {
   return (
-    <div>ExtraInfo</div>
+    <div className='extra-info'>
+      <StaticImage />
+    </div>
   )
 }
 

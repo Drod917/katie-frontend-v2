@@ -15,10 +15,7 @@ const IndexPage = () => {
       <SEO />
       <Hero />
       <Services />
-      {/* Blog */}
       <ExtraInfo />
-      {/* Blog2 */}
-      {/* Hero2 */}
       <Contact />
       <Footer/>
     </Layout>
