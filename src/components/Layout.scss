@@ -49,6 +49,10 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
+img {
+    clip-path: circle();
+}
+
 .layout {
 	display: flex;
 	flex-direction: column;
