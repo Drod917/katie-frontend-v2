@@ -75,11 +75,7 @@ h1, p {
 
 @media screen and (min-width: 1200px) {
 	.layout {
-		margin: 2.4em 16.3em;
-	}
-
-	.content-wrapper {
-        // margin-left: -16.3em;
-        // margin-right: -16.3em;
+		margin-left: 16.3em;
+		margin-right: 16.3em;
 	}
 }

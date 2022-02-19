@@ -1,4 +1,4 @@
-.nav {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,6 +6,57 @@
     margin-top: 2.4em;
     margin-left: 2.4em;
     margin-right: 2.4em;
+
+    .menu {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    nav {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background: white;
+        width: 45%;
+        z-index: 2;
+        text-transform: uppercase;
+        transform: translateX(100%);
+        transition: transform .5s ease-in-out;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 8em;
+    
+            a {
+                color: black;
+                // Padding on a link element doesn't work unless display: block
+                padding: .75em 2em;
+                display: block;
+    
+                &:hover {
+                    background: gray;
+                }
+            }
+        }
+    
+        .close-button {
+            float: right;
+            margin: 2em;
+            margin-right: 2.1em;
+            width: 2.5em;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .open-nav {
+        transform: translateX(0);
+    }
 
     svg {
         width: 2em;
@@ -18,5 +69,40 @@
 
     h1 {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .navbar {
+        .menu {
+            display: none;
+        }
+
+        nav {
+            width: unset;
+            height: unset;
+            position: relative;
+            transform: unset;
+            transition: unset;
+            
+            ul {
+                display: flex;
+                margin-top: unset;
+                
+                a {
+                    white-space: nowrap;
+                    text-decoration: none;
+
+                    &:hover {
+                        background: unset;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .close-button {
+                display: none;
+            }
+        }
     }
 }
