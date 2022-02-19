@@ -32,7 +32,7 @@ const ExtraInfo = props => {
       <div className="bg-colored">
         <div className="content-wrapper">
           <div className="extra-info-2">
-            <StaticImage className="img-square" quality={100} objectFit="contain" height={451} width={340} src="../../content/images/extra-info-blurb-3.jpg" alt="extra info blurb 3" />
+            <StaticImage style={{marginTop: '4.3em', marginBottom: '1.8em'}} imgStyle={{clipPath: 'unset'}} quality={100} objectFit="contain" height={451} width={340} src="../../content/images/extra-info-blurb-3.jpg" alt="extra info blurb 3" />
             <StaticImage quality={100} objectFit="contain" height={250} width={250} src="../../content/images/extra-info-blurb-4.jpg" alt="extra info blurb 4" />
             <h1>Home skin care</h1>
             <p>Vel fringilla est ullamcorper eget nulla facilisi. Nibh cras pulvinar mattis nunc. Massa id neque aliquam vestibulum morbi blandit. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Id ornare arcu odio ut sem.</p>
