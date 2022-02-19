@@ -17,10 +17,10 @@ const Contact = props => {
         <div className="contact-form-wrapper">
           <div className="contact-form">
             <h1>contact form</h1>
-            <input type="text" name="contactName" placeHolder="Enter your Name"/>
-            <input type="text" name="contactEmail" placeHolder="Enter a valid email address" />
-            <textarea placeHolder="Enter your message" />
-            <input type="button" value="Submit" />
+            <input type="text" name="contactName" placeholder="Enter your Name"/>
+            <input type="text" name="contactEmail" placeholder="Enter a valid email address" />
+            <textarea placeholder="Enter your message" />
+            <input type="button" value="Submit" onClick={()=> (console.log('test'))}/>
           </div>
         </div>
       </div>

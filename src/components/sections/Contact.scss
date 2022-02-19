@@ -6,6 +6,7 @@
         flex-direction: column;
         margin-left: 1em;
         margin-right: 1em;
+        margin-bottom: 3em;
 
         h1 {
             font-family: 'Playfair Display', serif;
@@ -39,7 +40,11 @@
             background-color: unset;
             padding: 1em;
             margin-top: 1em;
-            margin-bottom: 1em;
+            margin-bottom: 3em;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
