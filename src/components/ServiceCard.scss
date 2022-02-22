@@ -55,7 +55,15 @@
     .service-card {
         .card-wrapper {
             height: 400px;
-            width: 300px;
+            width: 250px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .service-card {
+        .card-wrapper {
+            width: 350px;
         }
     }
 }

@@ -99,7 +99,7 @@
         .hero-image-stack {
             margin-bottom: -8em;
 
-            .gatsby-image-wrapper.hero-2{
+            .hero-2{
                     height: 450px;
                 }
             
@@ -129,7 +129,7 @@
     }
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 768px) {
     .hero-images {
         margin-bottom: -8em;
 
