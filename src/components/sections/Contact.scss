@@ -50,3 +50,46 @@
         }
     }
 }
+
+.col-wrapper {
+    img {
+        clip-path: unset;
+    }
+}
+
+// Landscape phones
+@media screen and (min-width: 576px) {
+
+}
+
+// Tablets
+@media screen and (min-width: 768px) {
+    .col-wrapper {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .contact-form {
+            min-width: 400px;
+        }
+
+    }
+}
+
+// Large devices (desktops)
+@media screen and (min-width: 992px) {
+
+}
+
+// X-large devices
+@media screen and (min-width: 1200px) {
+	.layout {
+		margin-left: 16.3em;
+		margin-right: 16.3em;
+	}
+}
+
+// XX-large devices
+@media screen and (min-width: 1400px) {
+
+}
