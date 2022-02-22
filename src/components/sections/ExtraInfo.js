@@ -24,8 +24,10 @@ const ExtraInfo = props => {
             </div>
             <div className="extra-info-blurb flipped">
               <StaticImage quality={100} objectFit="contain" height={222} width={222} src="../../content/images/extra-info-blurb-2.jpg" alt="extra info blurb 2" />
-              <h1>Facials</h1>
-              <p>Aliquam ut porttitor leo a. Augue interdum velit euismod in. Suscipit adipiscing bibendum est ultricies. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Tempus iaculis urna id volutpat lacus. Tortor at auctor urna nunc id cursus metus aliquam. Adipiscing diam donec adipiscing tristique risus nec feugiat.</p>
+              <div>
+                <h1>Facials</h1>
+                <p>Aliquam ut porttitor leo a. Augue interdum velit euismod in. Suscipit adipiscing bibendum est ultricies. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Tempus iaculis urna id volutpat lacus. Tortor at auctor urna nunc id cursus metus aliquam. Adipiscing diam donec adipiscing tristique risus nec feugiat.</p>
+              </div>
             </div>
           </div>
         </div>

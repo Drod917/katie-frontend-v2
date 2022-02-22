@@ -1,6 +1,6 @@
 .services {
     position: relative;
-    z-index: 0;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,64 @@
     .service-card + .service-card {
         margin-top: 0.7em;
     }
+
+    .service-modal-background {
+        display: none;
+        background-color: grey;
+        position: fixed;
+        z-index: 1;
+        // top: 10%;
+        // height: 80%;
+        // width: 80%;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 60%;
+    }
+
+    .service-modal {
+        display: none;
+        position: fixed;
+        z-index: 2;
+        background-color: white;
+        top: 10%;
+        left: 5%;
+        height: 80%;
+        width: 90%;
+        opacity: 1;
+
+    }
+
+    .open-modal {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        svg {
+            position: relative;
+            height: 30px;
+            margin: 2em;
+                
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .modal-content {
+            display: flex;
+            flex-direction: column;
+            margin: 2em;
+
+            .modal-blurb {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    }
 }
+
+
 
 @media screen and (min-width: 576px) {
     .services {
