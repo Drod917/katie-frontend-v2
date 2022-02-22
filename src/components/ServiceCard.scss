@@ -67,3 +67,11 @@
         }
     }
 }
+
+@media screen and (min-width: 992px) {
+    .service-card {
+        .card-wrapper {
+            width: 250px;
+        }
+    }
+}

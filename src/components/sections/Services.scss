@@ -38,13 +38,13 @@
 }
 
 @media screen and (min-width: 991px) {
-}
-
-@media screen and (min-width: 1200px) {
     .services {
         .service-card-collection {
             display: flex;
             flex-direction: row;
         }
     }
+}
+
+@media screen and (min-width: 1200px) {
 }
