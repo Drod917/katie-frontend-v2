@@ -11,6 +11,7 @@ const ServiceCard = ({ title, description, modalFunc, ...restProps }) => {
             <h1>{title}</h1>
             <p>{description}</p>
             <div className="more-info">
+                {/* eslint-disable-next-line */}
                 <h1 onClick={() => modalFunc(title)}>MORE</h1>
             </div>
         </div>

@@ -8,7 +8,12 @@ const Hero = () => {
     <div className="content-wrapper">
       <div className="hero">
         <div className="hero-images">
-          <StaticImage className="hero-1" quality={100} src="../../content/images/hero1.jpg" alt="hero1" />
+          <StaticImage 
+            placeholder='blurred'
+            className="hero-1" 
+            quality={100} 
+            src="../../content/images/hero1.jpg" 
+            alt="hero1" />
           <div className="hero-circle" />
           <div className="hero-image-stack">
             <StaticImage 
@@ -17,7 +22,11 @@ const Hero = () => {
               className="hero-2"
               src="../../content/images/hero2.jpg"
               alt="hero2" />
-            <StaticImage quality={100} className="hero-3" src="../../content/images/hero3.jpg" alt="hero3" />
+            <StaticImage 
+              quality={100} 
+              className="hero-3" 
+              src="../../content/images/hero3.jpg" 
+              alt="hero3" />
           </div>
         </div>
         <div className="hero-heading">
