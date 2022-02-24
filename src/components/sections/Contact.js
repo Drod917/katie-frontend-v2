@@ -9,6 +9,7 @@ const Contact = props => {
       <div className="content-wrapper">
         <div className="col-wrapper">
           <StaticImage 
+            placeholder='blurred'
             quality={100}
             src="../../content/images/hero1.jpg"
             alt="contact image"
