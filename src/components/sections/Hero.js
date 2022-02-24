@@ -17,12 +17,16 @@ const Hero = () => {
           <div className="hero-circle" />
           <div className="hero-image-stack">
             <StaticImage 
+              objectFit='contain'
+              placeholder='blurred'
               quality={100}
-              style={{minHeight: '350px'}}
+              width={600}
+              height={600}
               className="hero-2"
               src="../../content/images/hero2.jpg"
               alt="hero2" />
             <StaticImage 
+              placeholder='blurred'
               quality={100} 
               className="hero-3" 
               src="../../content/images/hero3.jpg" 

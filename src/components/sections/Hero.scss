@@ -100,11 +100,6 @@
         .hero-image-stack {
             margin-bottom: -8em;
 
-            .hero-2{
-                    height: 450px;
-                }
-            
-
             .hero-3 {
                 transform: translateX(0%) translateY(-60%);
 
@@ -141,10 +136,6 @@
         }
 
         .hero-image-stack {
-            .gatsby-image-wrapper.hero-2 {
-                height: 600px;
-            }
-
             .hero-3 {
                 transform: translateX(2%) translateY(-60%);
 
@@ -158,7 +149,7 @@
 
     .hero-heading {
         h1.sub-title {
-            width: 65%;
+            width: 60%;
         }
     }
 }
@@ -196,10 +187,6 @@
         .hero-image-stack {
             margin-top: unset;
 
-            .gatsby-image-wrapper.hero-2 {
-                height: 700px;
-            }
-
             .hero-3 {
                 // transform: translateX(6%) translateY(-60%);
 
@@ -226,15 +213,6 @@
 
         .hero-image-stack {
             margin-top: 0;
-    
-            .gatsby-image-wrapper.hero-2 {
-                height: 600px;
-
-                img {
-                    transform: translateX(10%);
-                    object-fit: contain !important;
-                }
-            }
 
             .hero-3 {
                 img {

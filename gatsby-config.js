@@ -44,5 +44,8 @@ module.exports = {
         include: /content/ // See below to configure properly
       }
     }
+  },
+  {
+    resolve: `gatsby-plugin-netlify`,
   }]
 };
