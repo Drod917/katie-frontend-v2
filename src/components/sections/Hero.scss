@@ -15,7 +15,7 @@
         position: absolute;
         height: 150px;
         width: 150px;
-        background-color: #d6c3b1;;
+        background-color: #343a41;
         border-radius: 50%;
         top: 0;
         right: 0;
@@ -87,13 +87,6 @@
 @media screen and (min-width: 576px) {
     .hero-images {
         .hero-circle {
-            position: absolute;
-            height: 150px;
-            width: 150px;
-            background-color: #d6c3b1;;
-            border-radius: 50%;
-            top: 0;
-            right: 0;
             transform: translateX(-30%) translateY(200%);
         }
 
@@ -188,8 +181,6 @@
             right: 6em;
             height: 180px;
             width: 180px;
-            background-color: #d6c3b1;;
-            border-radius: 50%;
             transform: translateX(-30%) translateY(70%);
         }
 
