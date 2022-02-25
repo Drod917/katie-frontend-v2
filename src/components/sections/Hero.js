@@ -17,24 +17,35 @@ const Hero = () => {
           <div className="hero-circle" />
           <div className="hero-image-stack">
             <StaticImage 
-              objectFit='contain'
+              objectFit='cover'
               placeholder='blurred'
               quality={100}
-              width={600}
-              height={600}
+              style={{
+                minWidth: '350px', 
+                minHeight: '350px'}}
               className="hero-2"
               src="../../content/images/hero2.jpg"
               alt="hero2" />
             <StaticImage 
               placeholder='blurred'
-              quality={100} 
+              width={1200}
+              quality={100}
+              objectFit='contain'
+              aspectRatio={1}
+              imgStyle={{
+                height: '50%',
+                width: '50%',
+                maxHeight: '350px',
+                maxWidth: '350px',
+                borderRadius: '50%',
+                border: '1.5em solid white'}}
               className="hero-3" 
               src="../../content/images/hero3.jpg" 
               alt="hero3" />
           </div>
         </div>
         <div className="hero-heading">
-          <h1 className="title">BEAUTY SALON</h1>
+          <h1 className="title">Katie Bostrom</h1>
           <h1 className="sub-title">Treatments & Masks</h1>
         </div>
       </div>

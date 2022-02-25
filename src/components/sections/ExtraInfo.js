@@ -10,6 +10,8 @@ const ExtraInfo = props => {
       <div className="content-wrapper">
         <div className='extra-info'>
           <StaticImage 
+            width={1000}
+            style={{minHeight: '300px'}}
             placeholder='blurred'
             className="welcome-hero" 
             quality={100} 

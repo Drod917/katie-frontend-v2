@@ -3,13 +3,30 @@ import PropTypes from 'prop-types';
 
 import './ServiceCard.scss';
 
-const ServiceCard = ({ title, description, modalFunc, ...restProps }) => {
+const ServiceCard = ({ title, description, icon, modalFunc, ...restProps }) => {
   return (
     <div className="service-card">
         <div className="card-wrapper">
-            <div className="circle-icon" />
-            <h1>{title}</h1>
-            <p>{description}</p>
+            <div style={{marginTop: '3em', 
+                         marginBottom: '1em',
+                         display: 'flex',
+                         flexDirection: 'column',
+                         alignItems: 'center',
+                         alignContent: 'center',
+                         justifyContent: 'center'}}>
+              <div className="circle-icon">
+                {icon}
+              </div>
+              <h1>{title}</h1>
+              <div
+                style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'}}>
+                <p>{description}</p>
+              </div>
+            </div>
+
             <div className="more-info">
                 {/* eslint-disable-next-line */}
                 <h1 onClick={() => modalFunc(title)}>MORE</h1>

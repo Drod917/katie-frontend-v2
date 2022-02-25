@@ -2,6 +2,8 @@ import React from 'react';
 import ServiceCard from '../ServiceCard';
 import { useState } from 'react';
 
+import Scissors from '../../content/images/scissors.svg';
+
 import './Services.scss';
 
 const Services = props => {
@@ -13,29 +15,30 @@ const Services = props => {
         <div className="services">
           <div className="service-card-collection">
             <ServiceCard 
-              title="Manicures"
-              description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+              title="Haircuts"
+              description="Mens, Womans and Childrens haircuts. Clipper cuts, Precision cutting, Texture cutting, and more."
+              icon={<Scissors/>}
               modalFunc={openModal}
             />
             <ServiceCard 
-              title="Massage"
-              description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+              title="Color"
+              description="Single process, high/low lights, balyage, ombré, grey blending, and more"
               modalFunc={openModal}
             />
             <ServiceCard 
-              title="Facials"
-              description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+              title="Treatments"
+              description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore"
               modalFunc={openModal}
             />
             <ServiceCard 
-              title="Hydrotherapy"
-              description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+              title="Additional Services"
+              description="Duis aute irure dolor in reprehenderit in voluptate velit"
               modalFunc={openModal}
             />
           </div>
 
-          <div className={activeModal === 'Manicures' ? "service-modal-background open-modal" : "service-modal-background"} />
-          <div className={activeModal === 'Manicures' ? "service-modal open-modal" : "service-modal"}>
+          <div className={activeModal === 'Haircuts' ? "service-modal-background open-modal" : "service-modal-background"} />
+          <div className={activeModal === 'Haircuts' ? "service-modal open-modal" : "service-modal"}>
             <svg viewBox="0 0 1024 1024"
               fill="none" xmlns="http://www.w3.org/2000/svg"
               onClick={() => openModal('')}
@@ -44,8 +47,8 @@ const Services = props => {
             </svg>
           </div>
           
-          <div className={activeModal === 'Massage' ? "service-modal-background open-modal" : "service-modal-background"} />
-          <div className={activeModal === 'Massage' ? "service-modal open-modal" : "service-modal"}>
+          <div className={activeModal === 'Color' ? "service-modal-background open-modal" : "service-modal-background"} />
+          <div className={activeModal === 'Color' ? "service-modal open-modal" : "service-modal"}>
             <svg viewBox="0 0 1024 1024"
               fill="none" xmlns="http://www.w3.org/2000/svg"
               onClick={() => openModal('')}
@@ -54,8 +57,8 @@ const Services = props => {
             </svg>
           </div>
           
-          <div className={activeModal === 'Facials' ? "service-modal-background open-modal" : "service-modal-background"} />
-          <div className={activeModal === 'Facials' ? "service-modal open-modal" : "service-modal"}>
+          <div className={activeModal === 'Treatments' ? "service-modal-background open-modal" : "service-modal-background"} />
+          <div className={activeModal === 'Treatments' ? "service-modal open-modal" : "service-modal"}>
             <svg viewBox="0 0 1024 1024"
               fill="none" xmlns="http://www.w3.org/2000/svg"
               onClick={() => openModal('')}
@@ -64,8 +67,8 @@ const Services = props => {
             </svg>
           </div>
           
-          <div className={activeModal ==='Hydrotherapy' ? "service-modal-background open-modal" : "service-modal-background"} />
-          <div className={activeModal ==='Hydrotherapy' ? "service-modal open-modal" : "service-modal"}>
+          <div className={activeModal ==='Additional Services' ? "service-modal-background open-modal" : "service-modal-background"} />
+          <div className={activeModal ==='Additional Services' ? "service-modal open-modal" : "service-modal"}>
             <svg viewBox="0 0 1024 1024"
               fill="none" xmlns="http://www.w3.org/2000/svg"
               onClick={() => openModal('')}
