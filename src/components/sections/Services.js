@@ -2,7 +2,10 @@ import React from 'react';
 import ServiceCard from '../ServiceCard';
 import { useState } from 'react';
 
-import Scissors from '../../content/images/scissors.svg';
+import CuttingIcon from '../../content/images/scissors.svg';
+import ColoringIcon from '../../content/images/coloring.svg';
+import TreatmentsIcon from '../../content/images/treatments.svg';
+import AdditionalServicesIcon from '../../content/images/additional_services.svg';
 
 import './Services.scss';
 
@@ -17,22 +20,25 @@ const Services = props => {
             <ServiceCard 
               title="Haircuts"
               description="Mens, Womans and Childrens haircuts. Clipper cuts, Precision cutting, Texture cutting, and more."
-              icon={<Scissors/>}
+              icon={<CuttingIcon/>}
               modalFunc={openModal}
             />
             <ServiceCard 
               title="Color"
               description="Single process, high/low lights, balyage, ombré, grey blending, and more"
+              icon={<ColoringIcon/>}
               modalFunc={openModal}
             />
             <ServiceCard 
               title="Treatments"
               description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore"
+              icon={<TreatmentsIcon/>}
               modalFunc={openModal}
             />
             <ServiceCard 
               title="Additional Services"
               description="Duis aute irure dolor in reprehenderit in voluptate velit"
+              icon={<AdditionalServicesIcon/>}
               modalFunc={openModal}
             />
           </div>
