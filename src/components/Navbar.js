@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useCallback } from 'react';
+import { Link } from 'react-scroll';
 import MenuIcon from '../content/images/menu.svg';
 import useSmoothScrollTo from '../utils/useSmoothScrollTo';
 import useWindowOnScroll from '../utils/useWindowOnScroll';
@@ -45,9 +46,33 @@ const Navbar = () => {
                         
                     <ul>
                         {/* eslint-disable */}
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <Link 
+                                smooth="easeInOutQuart" 
+                                to="/services"
+                                offset={-265}
+                                onClick={closeMenu}>
+                                    Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                smooth="easeInOutQuart" 
+                                to="/about"
+                                offset={-100}
+                                onClick={closeMenu}>
+                                    About Me
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                smooth="easeInOutQuart" 
+                                to="/contact"
+                                offset={-50}
+                                onClick={closeMenu}>
+                                    Contact
+                            </Link>
+                        </li>
                         {/* esline-enable */}
                     </ul>
                 </nav>
