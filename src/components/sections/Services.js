@@ -19,25 +19,25 @@ const Services = props => {
           <div className="service-card-collection">
             <ServiceCard 
               title="Haircuts"
-              description="Mens, Womans and Childrens haircuts. Clipper cuts, Precision cutting, Texture cutting, and more."
+              description="Mens, Womans and Childrens haircuts. Clipper cuts, Precision cutting, Texture cutting..."
               icon={<CuttingIcon/>}
               modalFunc={openModal}
             />
             <ServiceCard 
               title="Color"
-              description="Single process, high/low lights, balyage, ombré, grey blending, and more"
+              description="Single process, high/low lights, balyage, ombré, grey blending..."
               icon={<ColoringIcon/>}
               modalFunc={openModal}
             />
             <ServiceCard 
               title="Treatments"
-              description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore"
+              description="Deep conditioning, Keratin Complex, Brazilian Blowouts, Olaplex..."
               icon={<TreatmentsIcon/>}
               modalFunc={openModal}
             />
             <ServiceCard 
               title="Additional Services"
-              description="Duis aute irure dolor in reprehenderit in voluptate velit"
+              description="Extensions, weddings, facial waxing, "
               icon={<AdditionalServicesIcon/>}
               modalFunc={openModal}
             />
