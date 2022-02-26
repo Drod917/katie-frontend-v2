@@ -1,5 +1,5 @@
 .hero {
-    margin-top: 4em;
+    margin-top: 6em;
     margin-bottom: 19em;
 }
 
@@ -20,6 +20,7 @@
         top: 0;
         right: 0;
         transform: translateX(-28%) translateY(-60%);
+        z-index: 2;
     }
     
     .hero-image-stack {
@@ -42,17 +43,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            z-index: 1;
             transform: translateX(-7%) translateY(60%);
-            // margin-bottom: -12em;
-            // border: 1.2em solid red;
-
-            img {
-                // clip-path: unset;
-                // height: 170px;
-                // width: 170px;
-                // border-radius: 50%;
-            }
         }
     }
 }
@@ -74,7 +65,6 @@
 
     h1.sub-title {
         margin-top: 0.6em;
-        // width: 90%;
         text-align: end;
         font-size: 3.0rem;
         font-family: 'Playfair Display', serif;
@@ -88,19 +78,14 @@
     .hero-images {
         .hero-circle {
             transform: translateX(-30%) translateY(200%);
+            z-index: 0;
         }
 
 
         .hero-image-stack {
-            // margin-bottom: 10em;
 
             .hero-3 {
                 transform: translateX(0%) translateY(40%);
-
-                img {
-                    // height: 275px;
-                    // width: 275px;
-                }
             }
         }
     }
@@ -112,7 +97,6 @@
 
         h1.sub-title {
             margin-top: 0.3em;
-            // width: 95%;
             line-height: 5rem;
             font-size: 4.5rem;
         }
@@ -140,18 +124,7 @@
 
             .hero-3 {
                 transform: translateX(2%) translateY(40%);
-
-                img {
-                    // width: 375px;
-                    // height: 375px;
-                }
             }
-        }
-    }
-
-    .hero-heading {
-        h1.sub-title {
-            // width: 100%;
         }
     }
 }
@@ -171,13 +144,11 @@
 
         .hero-1 {
             position: absolute;
-            z-index: 1;
             width: 35%;
         }
 
         .hero-circle {
             position: absolute;
-            z-index: 1;
             right: 6em;
             height: 180px;
             width: 180px;
@@ -189,11 +160,6 @@
 
             .hero-3 {
                 transform: translateX(6%) translateY(40%);
-
-                img {
-                    // height: 380px;
-                    // width: 380px;
-                }
             }
         }
     }
@@ -201,7 +167,6 @@
 
 @media screen and (min-width: 1200px) {
     .hero-images {
-        // margin-bottom: -2em;
 
         .hero-1 {
             width: 20%;
@@ -216,11 +181,6 @@
 
             .hero-3 {
                 transform: translateX(0%) translateY(30%);
-
-                img {
-                    // height: 300px;
-                    // width: 300px;
-                }
             }
         }
     }
@@ -234,7 +194,6 @@
         h1.sub-title {
             line-height: 7rem;
             font-size: 6rem;
-            // width: 75%;
         }
     }
 }
