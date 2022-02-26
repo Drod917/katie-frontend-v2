@@ -5,7 +5,7 @@ import './Contact.scss';
 
 const Contact = props => {
   return (
-    <div className="bg-colored">
+    <div className="bg-colored" id="/contact">
       <div className="content-wrapper">
         <div className="col-wrapper">
           <StaticImage 

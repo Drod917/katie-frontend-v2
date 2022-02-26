@@ -95,7 +95,7 @@ const ExtraInfo = props => {
       </div>
 
       <div className="content-wrapper">
-        <div className="extra-info-end">
+        <div className="extra-info-end" id="/about">
           <StaticImage 
             placeholder='blurred'
             quality={100} 

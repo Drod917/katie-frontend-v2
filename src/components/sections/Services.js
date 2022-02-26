@@ -15,7 +15,7 @@ const Services = props => {
   return (
     <div className="bg-colored">
       <div className="content-wrapper">
-        <div className="services">
+        <div className="services" id="/services">
           <div className="service-card-collection">
             <ServiceCard 
               title="Haircuts"
