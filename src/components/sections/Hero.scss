@@ -15,7 +15,7 @@
         position: absolute;
         height: 150px;
         width: 150px;
-        background-color: #343a41;
+        background-color: #565f6a;
         border-radius: 50%;
         top: 0;
         right: 0;
@@ -74,9 +74,9 @@
 
     h1.sub-title {
         margin-top: 0.6em;
-        width: 80%;
+        // width: 90%;
         text-align: end;
-        font-size: 2.2rem;
+        font-size: 3.0rem;
         font-family: 'Playfair Display', serif;
         font-weight: 700;
     }
@@ -112,7 +112,7 @@
 
         h1.sub-title {
             margin-top: 0.3em;
-            width: 95%;
+            // width: 95%;
             line-height: 5rem;
             font-size: 4.5rem;
         }
@@ -151,7 +151,7 @@
 
     .hero-heading {
         h1.sub-title {
-            width: 60%;
+            // width: 100%;
         }
     }
 }
@@ -234,7 +234,7 @@
         h1.sub-title {
             line-height: 7rem;
             font-size: 6rem;
-            width: 65%;
+            // width: 75%;
         }
     }
 }

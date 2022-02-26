@@ -33,6 +33,7 @@ const Hero = () => {
               objectFit='contain'
               aspectRatio={1}
               imgStyle={{
+                clipPath: 'unset',
                 height: '50%',
                 width: '50%',
                 maxHeight: '350px',
@@ -46,7 +47,7 @@ const Hero = () => {
         </div>
         <div className="hero-heading">
           <h1 className="title">Katie Bostrom</h1>
-          <h1 className="sub-title">Treatments & Masks</h1>
+          <h1 className="sub-title">Salon Services</h1>
         </div>
       </div>
     </div>
