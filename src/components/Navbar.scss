@@ -18,7 +18,7 @@
         right: 0;
         top: 0;
         height: 100vh;
-        background: #bcc9d8;
+        background-color: #bcc9d8;
         width: 45%;
         z-index: 2;
         text-transform: uppercase;
@@ -79,6 +79,7 @@
         }
 
         nav {
+            background-color: white;
             width: unset;
             height: unset;
             position: relative;
