@@ -1,15 +1,35 @@
 .navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 2.4em;
+    align-items: center;
+    min-height: 42px;
     margin-left: 2.4em;
     margin-right: 2.4em;
 
-    .menu {
+    button {
+        all: unset;
+        // for safari?
+        height: 100%;
+        
         &:hover {
             cursor: pointer;
+        }  
+        font-size: 1.5rem;
+    }
+
+    
+    .menu {
+        width: 2em;
+        stroke: black;
+        // for safari?
+        height: 100%;
+                
+        &:hover {
+            cursor: pointer;
+        }
+
+        path {
+            fill: black;
         }
     }
 
@@ -57,19 +77,46 @@
     .open-nav {
         transform: translateX(0);
     }
+}
 
-    svg {
-        width: 2em;
-        stroke: black;
+@keyframes drawBackground {
+    from { background-color: unset }
+    100% {background-color: #f7f7f7 }
+}
 
-        path {
-            fill: black;
-        }
-    }
+.nav-bg {
+    position: fixed;
+    // padding-top: 2.4em;
+    background-color: unset;
+    border-bottom: unset;
+    width: 100%;
+    z-index: 1;
+}
 
-    h1 {
-        font-size: 1.5rem;
-    }
+@keyframes shrink {
+    from { padding-top: 2.4em; border-bottom: unset }
+    to { padding-top: 1.2em; padding-bottom: 1.2em; border-bottom: 1px solid #dfdfdf }
+}
+
+@keyframes expand {
+    from { padding-top: 1.2em; padding-bottom: 1.2em }
+    to { padding-top: 2.4em; padding-bottom: unset; }
+}
+
+.scroll-shrink {
+    background-color: #f7f7f7;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    animation: shrink 0.2s ease-in-out, drawBackground 0.2s;
+    border-bottom: 1px solid #dfdfdf;
+    animation-timing-function: ease-in-out;
+}
+
+.scroll-expand {
+    padding-top: 2.4em;
+    padding-bottom: unset;
+    animation: expand 0.2s ease-in-out;
+    animation-timing-function: ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
@@ -79,7 +126,7 @@
         }
 
         nav {
-            background-color: white;
+            background-color: unset;
             width: unset;
             height: unset;
             position: relative;
@@ -110,7 +157,7 @@
 
 @media screen and (min-width: 1200px) {
     .navbar {
-        margin-top: 2.4em;
+        // margin-top: 2.4em;
         margin-left: 16.3em;
         margin-right: 16.3em;
     }
