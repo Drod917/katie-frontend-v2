@@ -37,6 +37,22 @@
         }
     }
 
+    .business-partners {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 7em;
+        
+        h1 {
+            font-size: 44px;
+            line-height: 44px;
+            letter-spacing: 1rem;
+            margin-bottom: 1.2em;
+        }
+    }
+
     .extra-info-blurb {
         margin-left: 1em;
         margin-right: 1em;
@@ -62,7 +78,7 @@
 
     .extra-info-blurb.flipped {
         h1 {
-            margin-top: 3em;
+            margin-top: 2em;
         }
     }
 }
@@ -94,6 +110,10 @@
         margin-top: 1em;
         font-family: 'Raleway', sans-serif;
         line-height: 32px;
+    }
+
+    h1, p {
+        color: #dfdfdf;
     }
 }
 
@@ -146,6 +166,15 @@
             height: unset;
             width: 350px;
             transform: translateX(-20%) translateY(-40%);
+        }
+
+        
+        .business-partners {
+            flex-direction: row;
+
+            h1 {
+                margin-bottom: unset;
+            }
         }
     }
 
@@ -278,10 +307,11 @@
             transform: translateY(-70%);
             width: 500px;
             height: 530px;
+            margin-bottom: -22em;
         }
 
-        .extra-info-blurb-wrapper {
-            margin-top: -22em;
+        .business-partners {
+            // margin-top: -22em;
         }
     }
 }

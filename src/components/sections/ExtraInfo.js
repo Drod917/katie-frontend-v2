@@ -23,6 +23,19 @@ const ExtraInfo = props => {
               <p>New season, new wardrobe. As the temperatures continue to rise, have your style follow suit and revamp your racks with fresh, elevated summer looks.</p>
             </div>
           </div>
+          <div className="business-partners">
+            <h1>RPM</h1>
+            <StaticImage 
+                placeholder='blurred'
+                quality={100} 
+                objectFit="contain"
+                src="../../content/images/electric-brand.png" 
+                alt="extra info blurb 2" 
+                imgStyle={{
+                  filter: 'invert(100%)',
+                  clipPath: 'unset'
+              }}/>
+          </div>
           <div className="extra-info-blurb-wrapper">
             <div className="extra-info-blurb">
               <h1>Eyebrow Tinting</h1>
@@ -35,7 +48,7 @@ const ExtraInfo = props => {
                 width={222} 
                 id="blurb-img-1" 
                 src="../../content/images/extra-info-blurb-1.jpg" 
-                alt="extra info blurb 1" />
+                alt="extra info blurb 1"/>
             </div>
             <div className="extra-info-blurb flipped">
               <StaticImage 
@@ -45,7 +58,7 @@ const ExtraInfo = props => {
                 height={222} 
                 width={222} 
                 src="../../content/images/extra-info-blurb-2.jpg" 
-                alt="extra info blurb 2" />
+                alt="extra info blurb 2"/>
               <div>
                 <h1>Facials</h1>
                 <p>Aliquam ut porttitor leo a. Augue interdum velit euismod in. Suscipit adipiscing bibendum est ultricies. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Tempus iaculis urna id volutpat lacus. Tortor at auctor urna nunc id cursus metus aliquam. Adipiscing diam donec adipiscing tristique risus nec feugiat.</p>
