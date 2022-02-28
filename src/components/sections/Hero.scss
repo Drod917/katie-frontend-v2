@@ -61,6 +61,7 @@
         font-weight: 700;
         font-size: 1.4rem;
         letter-spacing: 0.4rem;
+        animation: fade-in 0.5s ease-in-out;
     }
 
     h1.sub-title {
@@ -69,6 +70,7 @@
         font-size: 3.0rem;
         font-family: 'Playfair Display', serif;
         font-weight: 700;
+        animation: fade-in 0.5s ease-in-out;
     }
 
 
@@ -108,7 +110,7 @@
         margin-bottom: -8em;
 
         .hero-circle {
-            transform: translateX(-35%) translateY(180%);
+            transform: translateX(-35%) translateY(145%);
             height: 225px;
             width: 225px;
         }
