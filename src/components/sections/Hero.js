@@ -27,7 +27,7 @@ const Hero = () => {
               src="../../content/images/hero2.jpg"
               alt="hero2" />
             <StaticImage 
-              placeholder='blurred'
+              placeholder='none'
               width={1200}
               quality={100}
               objectFit='contain'

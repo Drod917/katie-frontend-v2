@@ -4,9 +4,7 @@ import { throttle } from "throttle-debounce";
 const useWindowOnScroll = (handleWindowScroll, loadOnceOnMount = true) => {
   const internalHandleScroll = React.useMemo(() => {
     // 166 -> 60HZ
-    // 322 -> 120HZ?
-    // 399 -> 144HZ
-    return handleWindowScroll ? throttle(399, handleWindowScroll) : handleWindowScroll;
+    return handleWindowScroll ? throttle(1, handleWindowScroll) : handleWindowScroll;
   }, [handleWindowScroll]);
 
   React.useEffect(() => {
