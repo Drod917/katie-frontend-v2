@@ -82,6 +82,7 @@
         .modal-content {
             grid-column-start: 1;
             grid-column-end: 4;
+            grid-row-gap: 2em;
             display: flex;
             flex-direction: column;
             
