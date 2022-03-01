@@ -1,8 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
-import AnimateIn from '../../utils/AnimateIn';
-
 import './Hero.scss';
 
 const Hero = () => {
@@ -47,12 +45,10 @@ const Hero = () => {
               alt="hero3" />
           </div>
         </div>
-        <AnimateIn>
-          <div className="hero-heading">
-            <h1 className="title">Katie Bostrom</h1>
-            <h1 className="sub-title">Salon Services</h1>
-          </div>
-        </AnimateIn>
+        <div className="hero-heading">
+          <h1 className="title">Katie Bostrom</h1>
+          <h1 className="sub-title">Salon Services</h1>
+        </div>
       </div>
     </div>
   )

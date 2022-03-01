@@ -52,8 +52,7 @@ const Services = props => {
               gridTemplateRows: '0.5fr 1fr 1fr 1fr',
               border: '0.15em solid #212529',
               padding: '1em',
-              margin: '2em',
-              animation: 'fade-in 0.1s linear'
+              margin: '2em'
             }}>
               <div className='modal-title'>
                 <h1>Haircuts</h1>
