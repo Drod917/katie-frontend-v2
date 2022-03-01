@@ -7,6 +7,8 @@ import ColoringIcon from '../../content/images/coloring.svg';
 import TreatmentsIcon from '../../content/images/treatments.svg';
 import AdditionalServicesIcon from '../../content/images/additional_services.svg';
 
+import AnimateIn from '../../utils/AnimateIn';
+
 import './Services.scss';
 
 const Services = props => {
@@ -17,30 +19,38 @@ const Services = props => {
       <div className="content-wrapper">
         <div className="services" id="/services">
           <div className="service-card-collection">
-            <ServiceCard 
-              title="Haircuts"
-              description="Mens, Womans and Childrens haircuts. Clipper cuts, Precision cutting, Texture cutting..."
-              icon={<CuttingIcon/>}
-              modalFunc={openModal}
-            />
-            <ServiceCard 
-              title="Color"
-              description="Single process, high/low lights, balyage, ombré, grey blending..."
-              icon={<ColoringIcon/>}
-              modalFunc={openModal}
-            />
-            <ServiceCard 
-              title="Treatments"
-              description="Deep conditioning, Keratin Complex, Brazilian Blowouts, Olaplex..."
-              icon={<TreatmentsIcon/>}
-              modalFunc={openModal}
-            />
-            <ServiceCard 
-              title="Additional Services"
-              description="Extensions, weddings, facial waxing, "
-              icon={<AdditionalServicesIcon/>}
-              modalFunc={openModal}
-            />
+            <AnimateIn>
+              <ServiceCard 
+                title="Haircuts"
+                description="Mens, Womans and Childrens haircuts. Clipper cuts, Precision cutting, Texture cutting..."
+                icon={<CuttingIcon/>}
+                modalFunc={openModal}
+              />
+            </AnimateIn>
+            <AnimateIn>
+              <ServiceCard 
+                title="Color"
+                description="Single process, high/low lights, balyage, ombré, grey blending..."
+                icon={<ColoringIcon/>}
+                modalFunc={openModal}
+              />
+            </AnimateIn>
+            <AnimateIn>
+              <ServiceCard 
+                title="Treatments"
+                description="Deep conditioning, Keratin Complex, Brazilian Blowouts, Olaplex..."
+                icon={<TreatmentsIcon/>}
+                modalFunc={openModal}
+              />
+            </AnimateIn>
+            <AnimateIn>
+              <ServiceCard 
+                title="Additional Services"
+                description="Extensions, weddings, facial waxing, "
+                icon={<AdditionalServicesIcon/>}
+                modalFunc={openModal}
+              />
+            </AnimateIn>
           </div>
 
           <div className={activeModal === 'Haircuts' ? "service-modal-background open-modal" : "service-modal-background"} />
