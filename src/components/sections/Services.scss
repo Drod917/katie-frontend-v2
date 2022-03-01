@@ -9,9 +9,9 @@
         transform: translateY(-14%);
     }
 
-    .service-card + .service-card {
-        margin-top: 0.7em;
-    }
+    // .service-card + .service-card {
+    //     margin-top: 0.7em;
+    // }
 
     .service-modal-background {
         display: none;
@@ -34,7 +34,6 @@
         height: 80%;
         width: 90%;
         opacity: 1;
-
     }
 
     .open-modal {

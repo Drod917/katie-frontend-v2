@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import AnimateIn from '../utils/AnimateIn';
+
 import './ServiceCard.scss';
 
 const ServiceCard = ({ title, description, icon, modalFunc, ...restProps }) => {
   return (
-    <div className="service-card">
+    <AnimateIn>
+      <div className="service-card">
         <div className="card-wrapper">
             <div style={{marginTop: '3em', 
                          marginBottom: '1em',
@@ -32,7 +35,8 @@ const ServiceCard = ({ title, description, icon, modalFunc, ...restProps }) => {
                 <h1 onClick={() => modalFunc(title)}>MORE</h1>
             </div>
         </div>
-    </div>
+      </div>
+    </AnimateIn>
   )
 }
 
