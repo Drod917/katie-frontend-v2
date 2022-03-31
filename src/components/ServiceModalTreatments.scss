@@ -1,4 +1,4 @@
-.modal-title-haircuts {
+.modal-title-treatments {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -13,7 +13,7 @@
     }
 }
 
-.close-modal-haircuts {
+.close-modal-treatments {
     // margin: 2em;
     grid-column-start: 3;
     grid-column-end: 4;
@@ -29,7 +29,7 @@
     }
 }
 
-.modal-content-haircuts {
+.modal-content-treatments {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-gap: 2em;

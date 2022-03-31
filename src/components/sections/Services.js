@@ -3,7 +3,7 @@ import ServiceCard from '../ServiceCard';
 import { useState } from 'react';
 import ServiceModalHaircuts from '../ServiceModalHaircuts';
 import ServiceModalColor from '../ServiceModalColor';
-import ServiceModalTreatments from '../ServiceModalTreaments';
+import ServiceModalTreatments from '../ServiceModalTreatments';
 import ServiceModalAdditional from '../ServiceModalAdditional';
 
 

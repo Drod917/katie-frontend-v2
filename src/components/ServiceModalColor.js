@@ -29,7 +29,7 @@ const ServiceModalColor = ({ title, setIsOpen }) => {
                     </svg>
                 </div>
                     
-                <div className="modal-content">
+                <div className="modal-content-color">
                     <div className="modal-service-title">
                         <h1>Woman</h1>
                         <div className='modal-service-item'>
@@ -95,7 +95,7 @@ const ServiceModalColor = ({ title, setIsOpen }) => {
                     </div>
                 </div>
 
-                <div className="modal-content">
+                <div className="modal-content-color">
                     <div className="modal-service-title">
                         <h1>Men</h1>
                         <div className='modal-service-item'>
