@@ -27,6 +27,13 @@ module.exports = {
     },
   },
   {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "services",
+      "path": "./src/content/services"
+    },
+  },
+  {
     resolve: `gatsby-transformer-remark`,
     options: {
       // Footnotes mode (default: true)

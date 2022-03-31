@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './ServiceCard.scss';
 
-const ServiceCard = ({ title, description, icon, modalFunc, ...restProps }) => {
+const ServiceCard = ({ title, description, icon, setModalOpen, ...restProps }) => {
   return (
     <div className="service-card">
         <div className="card-wrapper">
@@ -29,7 +29,7 @@ const ServiceCard = ({ title, description, icon, modalFunc, ...restProps }) => {
 
             <div className="more-info">
                 {/* eslint-disable-next-line */}
-                <h1 onClick={() => modalFunc(title)}>MORE</h1>
+                <h1 onClick={() => setModalOpen(title)}>MORE</h1>
             </div>
         </div>
     </div>

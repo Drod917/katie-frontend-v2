@@ -2,7 +2,7 @@ import React from 'react';
 import { useInView } from "react-intersection-observer"
 
 const AnimateIn = ({ threshold = 0.20, triggerOnce = true, ...remainingProps }) => {
-  const [ref, inView, entry] = useInView({ threshold, triggerOnce })
+  const [ref, inView] = useInView({ threshold, triggerOnce })
 
   return (
     <div

@@ -1,44 +1,8 @@
 .services {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 16em;
-
-    .service-card-collection {
-        transform: translateY(-14%);
-    }
-
-    .service-modal-background {
-        display: none;
-        background-color: grey;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 60%;
-    }
-
-    .service-modal {
-        display: none;
-        position: fixed;
-        z-index: 2;
-        background-color: white;
-        top: 10%;
-        left: 5%;
-        height: 80%;
-        width: 90%;
-        opacity: 1;
-        animation: fade-in 0.1s ease-in;
-    }
 
     .open-modal {
-        display: flex;
-        flex-direction: column;
 
-        // uniq
-        .modal-title {
+        .modal-title-haircuts {
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 1;
@@ -53,8 +17,7 @@
             }
         }
 
-        // uniq
-        .close-modal {
+        .close-modal-haircuts {
             // margin: 2em;
             grid-column-start: 3;
             grid-column-end: 4;
@@ -77,8 +40,7 @@
             }
         }
 
-        // uniq
-        .modal-content {
+        .modal-content-haircuts {
             grid-column-start: 1;
             grid-column-end: 4;
             grid-row-gap: 2em;
