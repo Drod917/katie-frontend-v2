@@ -25,7 +25,7 @@ const ExtraInfo = props => {
             <div className='welcome-blurb-content'>
               <AnimateIn>
                 <h1>Welcome!</h1>
-                <p>New season, new wardrobe. As the temperatures continue to rise, have your style follow suit and revamp your racks with fresh, elevated summer looks.</p>
+                <p>Self care is an important part of your mental and physical well-being. My goal is to uplift your spirits, and your style. When you look good, you feel good.</p>
               </AnimateIn>
             </div>
           </div>
@@ -49,8 +49,8 @@ const ExtraInfo = props => {
           <div className="extra-info-blurb-wrapper">
             <div className="extra-info-blurb">
               <AnimateIn>
-                <h1>Eyebrow Tinting</h1>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h1>The Mission</h1>
+                <p>When you sit in my chair, we work together to reach your desired look. Your vision is my priority. My skills of cut and color are used to compliment your best assets.</p>
               </AnimateIn>
               <StaticImage 
                 placeholder='blurred'
@@ -59,23 +59,23 @@ const ExtraInfo = props => {
                 height={222} 
                 width={222} 
                 id="blurb-img-1" 
-                src="../../content/images/extra-info-blurb-1.jpg" 
+                src="../../content/images/mission.jpg" 
                 alt="extra info blurb 1"/>
             </div>
             
-            <div className="extra-info-blurb flipped">
+            <div className="extra-info-blurb flipped" id="/about">
               <StaticImage 
                 placeholder='blurred'
                 quality={100} 
                 objectFit="contain" 
                 height={222} 
                 width={222} 
-                src="../../content/images/extra-info-blurb-2.jpg" 
+                src="../../content/images/katie.jpg" 
                 alt="extra info blurb 2"/>
               <AnimateIn>
                 <div>
-                  <h1>Facials</h1>
-                  <p>Aliquam ut porttitor leo a. Augue interdum velit euismod in. Suscipit adipiscing bibendum est ultricies. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Tempus iaculis urna id volutpat lacus. Tortor at auctor urna nunc id cursus metus aliquam. Adipiscing diam donec adipiscing tristique risus nec feugiat.</p>
+                  <h1>About Me</h1>
+                  <p>Graduating in 2005 from Paul Mitchell The School, I set out on a journey to make my clients feel beautiful inside and out. With 17 years of experience, I've trained extensively with companies such as Bumble and bumble in New York and Living Proof in Boston. After working at some of the best salons in Central Florida, I decided to open my own studio to deliver a personalized 1 on 1 experience with my clients.</p>
                 </div>
               </AnimateIn>
             </div>
@@ -113,7 +113,7 @@ const ExtraInfo = props => {
 
       <div className="content-wrapper">
         <AnimateIn>
-          <div className="extra-info-end" id="/about">
+          <div className="extra-info-end">
             <StaticImage 
               placeholder='blurred'
               quality={100} 

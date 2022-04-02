@@ -18,7 +18,7 @@ const ServiceModalHaircuts = ({ title, setIsOpen }) => {
                 padding: '1em',
                 margin: '2em'
             }}>
-                <div className='modal-title-haircuts'>
+                <div className='modal-title'>
                     <h1>Haircuts</h1>
                 </div>
                 <div className="close-modal-haircuts">
