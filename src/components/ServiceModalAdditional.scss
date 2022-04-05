@@ -10,6 +10,7 @@
     h1 {
         font-weight: 500;
         font-size: 2rem;
+        border-bottom: 2px dotted black;
     }
 }
 
@@ -29,17 +30,24 @@
     }
 }
 
+.modal-title-additional {
+    h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
 .modal-content-additional {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-gap: 2em;
+    grid-column-end: 4;
+    grid-row-gap: 1em;
     display: flex;
     flex-direction: column;
     
-    .modal-service-title {
+    .modal-service-title-additional {
         h1 {
             font-weight: 500;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
         }
 
         span {
@@ -47,11 +55,12 @@
         }
     }
 
-    .modal-service-item {
+    .modal-service-item-additional {
         display: flex;
         justify-content: space-between;
-        margin-top: 1em;
+        margin-top: 0.55em;
         margin-left: 1em;
+        font-size: 0.9rem;
     }
 
     .modal-service-item-extra {

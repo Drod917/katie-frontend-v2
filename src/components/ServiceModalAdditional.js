@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { useState } from 'react';
 
 import './sections/Services.scss';
+import './ServiceModalAdditional.scss';
 
 const ServiceModalAdditional = ({ title, setIsOpen }) => {
 
@@ -18,7 +19,7 @@ const ServiceModalAdditional = ({ title, setIsOpen }) => {
                 padding: '1em',
                 margin: '2em'
             }}>
-                <div className='modal-title'>
+                <div className='modal-title-additional'>
                     <h1>Additional Services</h1>
                 </div>
                 <div className="close-modal">
@@ -30,57 +31,57 @@ const ServiceModalAdditional = ({ title, setIsOpen }) => {
                     </svg>
                 </div>
                     
-                <div className="modal-content">
-                    <div className="modal-service-title">
+                <div className="modal-content-additional">
+                    <div className="modal-service-title-additional">
                         <h1>Hair</h1>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Blowdry</p>
                             <p>$30</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Iron Work</p>
                             <p>$20</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Updo</p>
                             <p>$55</p>
                         </div>
                     </div>
 
-                    <div className="modal-service-title">
+                    <div className="modal-service-title-additional">
                         <h1>Waxing</h1>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Eyebrows</p>
                             <p>$30</p>
                         </div>
                         <div className='modal-service-item-extra'>
                             <p>Complimentary Eyebrow Tint</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Lip</p>
                             <p>$10</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Chin</p>
                             <p>$10</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Sideburns</p>
                             <p>$20</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Full Face</p>
                             <p>$40</p>
                         </div>
                     </div>
 
-                    <div className="modal-service-title">
+                    <div className="modal-service-title-additional">
                         <h1>Extensions</h1>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Consultation</p>
                             <p>$25</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Application</p>
                             <p>$30/pack</p>
                         </div>
@@ -90,7 +91,7 @@ const ServiceModalAdditional = ({ title, setIsOpen }) => {
                         <div className='modal-service-item-extra'>
                             <p>Complimentary Haircut w/ Application</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-additional'>
                             <p>Removal</p>
                             <p>$55</p>
                         </div>

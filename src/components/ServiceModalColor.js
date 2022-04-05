@@ -32,63 +32,63 @@ const ServiceModalColor = ({ title, setIsOpen }) => {
                 <div className="modal-content-color">
                     <div className="modal-service-title">
                         <h1>Woman</h1>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Root Retouch</p>
                             <p>$70</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>All Over Color</p>
                             <p>$85</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Toner</p>
                             <p>$30</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Demi-Permanent Color / Gloss</p>
                             <p>$45</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Accent Foil</p>
                             <p>$65</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Partial Foil</p>
                             <p>$95</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Full Foil</p>
                             <p>$150</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Partial Balyage</p>
                             <p>$105</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Full Balyage</p>
                             <p>$250</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Shadow Root</p>
                             <p>$55</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Accent Fantasy Color</p>
                             <p>Starts at $95</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Full Fantasy Color</p>
                             <p>Starts at $250</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Bleach Retouch</p>
                             <p>$80</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Bleach All Over</p>
                             <p>Starts at $150</p>
                         </div>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Olaplex Protection Additive</p>
                             <p>$25</p>
                         </div>
@@ -98,7 +98,7 @@ const ServiceModalColor = ({ title, setIsOpen }) => {
                 <div className="modal-content-color">
                     <div className="modal-service-title">
                         <h1>Men</h1>
-                        <div className='modal-service-item'>
+                        <div className='modal-service-item-color'>
                             <p>Grey Blending / Color</p>
                             <p>$20</p>
                         </div>
