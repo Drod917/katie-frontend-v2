@@ -48,7 +48,7 @@ const ServiceModalHaircuts = ({ title, setIsOpen }) => {
                     </div>
                 </div>
 
-                <div className="modal-content">
+                <div className="modal-content-haircuts">
                     <div className="modal-service-title">
                         <h1>Men</h1>
                         <div className='modal-service-item'>
@@ -62,7 +62,7 @@ const ServiceModalHaircuts = ({ title, setIsOpen }) => {
                     </div>
                 </div>
 
-                <div className="modal-content">
+                <div className="modal-content-haircuts">
                     <div className="modal-service-title">
                         <h1>Kids <span>(12 & under)</span></h1>
                         <div className='modal-service-item'>
