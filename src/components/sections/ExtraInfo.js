@@ -139,7 +139,7 @@ const ExtraInfo = props => {
                 <a href="https://shop.saloninteractive.com/store/KBHAIR/product_categories?group=1">
                   <h1>Browse Shop</h1>
                 </a>
-                <p>Vel fringilla est ullamcorper eget nulla facilisi. Nibh cras pulvinar mattis nunc. Massa id neque aliquam vestibulum morbi blandit. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Id ornare arcu odio ut sem.</p>
+                <p>Support small businesses and buy directly from my shop!</p>
               </div>
             </div>
           </AnimateIn>
