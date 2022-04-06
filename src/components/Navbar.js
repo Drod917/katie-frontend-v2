@@ -67,6 +67,15 @@ const Navbar = () => {
                         <li>
                             <Link 
                                 smooth="easeInOutQuart" 
+                                to="/shop"
+                                offset={-100}
+                                onClick={closeMenu}>
+                                    Shop
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                smooth="easeInOutQuart" 
                                 to="/contact"
                                 offset={-50}
                                 onClick={closeMenu}>
