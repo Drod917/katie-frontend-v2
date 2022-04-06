@@ -87,6 +87,13 @@ const ExtraInfo = props => {
         <div className="content-wrapper">
           <AnimateIn>
             <div className="extra-info-2" id="/shop">
+              <StaticImage
+                placeholder='blurred'
+                className='square-img'
+                quality={100}
+                objectFit='cover'
+                src='../../content/images/extra-info-blurb-3.jpg'
+                alt='extra info blurb 3'/>
               {/* <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -134,13 +141,13 @@ const ExtraInfo = props => {
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+              </div> */}
               <div className="extra-info-2-blurb-wrapper">
                 <a href="https://shop.saloninteractive.com/store/KBHAIR/product_categories?group=1">
                   <h1>Browse Shop</h1>
                 </a>
                 <p>Support small businesses and buy directly from my shop!</p>
-              </div> */}
+              </div>
             </div>
           </AnimateIn>
         </div>

@@ -89,6 +89,16 @@
     text-align: center;
     padding-bottom: 28em;
 
+    .square-img {
+        margin-top: 4.3em;
+        margin-bottom: 1.8em;
+        height: 600px;
+
+        img {
+            clip-path: unset;
+        }
+    }
+
     .extra-info-2-blurb-wrapper {
         display: flex;
         flex-direction: column;
@@ -267,6 +277,10 @@
         justify-content: center;
         margin-top: 4em;
         padding-bottom: 25em;
+
+        .square-img {
+            width: 50%;
+        }
 
         h1 {
             font-size: 2.5rem;
