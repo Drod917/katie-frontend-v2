@@ -87,23 +87,58 @@ const ExtraInfo = props => {
         <div className="content-wrapper">
           <AnimateIn>
             <div className="extra-info-2">
-              <StaticImage 
-                placeholder='blurred'
-                className="square-img" 
-                quality={100} 
-                objectFit="cover" 
-                src="../../content/images/extra-info-blurb-3.jpg" 
-                alt="extra info blurb 3" />
+              <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://shop.saloninteractive.com/store/KBHAIR/product/39667/43118">
+                      <StaticImage 
+                        placeholder='blurred'
+                        className="d-block w-100" 
+                        quality={100} 
+                        aspectRatio={1}
+                        objectFit="cover" 
+                        src="../../content/images/Dry-Finish-Texture-Spray.png" 
+                        alt="extra info blurb 1" /> 
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://shop.saloninteractive.com/store/KBHAIR/product/27272/30723">
+                      <StaticImage 
+                        placeholder='blurred'
+                        className="d-block w-100" 
+                        quality={100} 
+                        aspectRatio={1}
+                        objectFit="cover" 
+                        src="../../content/images/Detangle-LeaveIn-Spray.jpg" 
+                        alt="extra info blurb 2" /> 
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://shop.saloninteractive.com/store/KBHAIR/product/15926/19384">
+                      <StaticImage 
+                        placeholder='blurred'
+                        className="d-block w-100" 
+                        quality={100} 
+                        aspectRatio={1}
+                        objectFit="cover" 
+                        src="../../content/images/Deep-Clean-Shampoo-300ml.jpg" 
+                        alt="extra info blurb 3" /> 
+                    </a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
               <div className="extra-info-2-blurb-wrapper">
-                <StaticImage 
-                  placeholder='blurred'
-                  quality={100} 
-                  objectFit="contain" 
-                  height={250} 
-                  width={250} 
-                  src="../../content/images/extra-info-blurb-4.jpg" 
-                  alt="extra info blurb 4" />
-                <h1>Home skin care</h1>
+                <a href="https://shop.saloninteractive.com/store/KBHAIR/product_categories?group=1">
+                  <h1>Browse Shop</h1>
+                </a>
                 <p>Vel fringilla est ullamcorper eget nulla facilisi. Nibh cras pulvinar mattis nunc. Massa id neque aliquam vestibulum morbi blandit. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Id ornare arcu odio ut sem.</p>
               </div>
             </div>
