@@ -87,7 +87,7 @@ const ExtraInfo = props => {
         <div className="content-wrapper">
           <AnimateIn>
             <div className="extra-info-2" id="/shop">
-              <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              {/* <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <a href="https://shop.saloninteractive.com/store/KBHAIR/product/39667/43118">
@@ -140,7 +140,7 @@ const ExtraInfo = props => {
                   <h1>Browse Shop</h1>
                 </a>
                 <p>Support small businesses and buy directly from my shop!</p>
-              </div>
+              </div> */}
             </div>
           </AnimateIn>
         </div>
