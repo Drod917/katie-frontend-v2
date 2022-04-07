@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState, useCallback } from 'react';
 import { Link } from 'react-scroll';
-import MenuIcon from '../content/images/menu.svg';
-import useSmoothScrollTo from '../utils/useSmoothScrollTo';
-import useWindowOnScroll from '../utils/useWindowOnScroll';
+import MenuIcon from '../../content/images/svg/menu.svg';
+import useSmoothScrollTo from '../../utils/useSmoothScrollTo';
+import useWindowOnScroll from '../../utils/useWindowOnScroll';
 
 import './Navbar.scss';
 

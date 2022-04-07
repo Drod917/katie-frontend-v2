@@ -1,3 +1,5 @@
+@use '../styles/variables.scss' as var;
+
 .contact-form-wrapper {
     background-color: white;
 
@@ -9,7 +11,7 @@
         margin-bottom: 3em;
 
         h1 {
-            font-family: 'Playfair Display', serif;
+            font-family: var.$playfair;
             font-weight: 400;
             font-size: 1.5rem;
             margin-top: 1em;
@@ -17,7 +19,7 @@
         }
 
         input, textarea {
-            font-family: 'Raleway', sans-serif;
+            font-family: var.$raleway;
             font-weight: 400;
             font-size: 16px;
         }

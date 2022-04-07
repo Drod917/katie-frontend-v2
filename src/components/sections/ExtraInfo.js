@@ -1,6 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types'
 import { StaticImage } from 'gatsby-plugin-image';
+import Carousel from '../Carousel/Carousel';
 
 import AnimateIn from '../../utils/AnimateIn';
 
@@ -87,61 +88,14 @@ const ExtraInfo = props => {
         <div className="content-wrapper">
           <AnimateIn>
             <div className="extra-info-2" id="/shop">
-              <StaticImage
+              {/* <StaticImage
                 placeholder='blurred'
                 className='square-img'
                 quality={100}
                 objectFit='cover'
                 src='../../content/images/extra-info-blurb-3.jpg'
-                alt='extra info blurb 3'/>
-              {/* <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="https://shop.saloninteractive.com/store/KBHAIR/product/39667/43118">
-                      <StaticImage 
-                        placeholder='blurred'
-                        className="d-block w-100" 
-                        quality={100} 
-                        aspectRatio={1}
-                        objectFit="cover" 
-                        src="../../content/images/Dry-Finish-Texture-Spray.png" 
-                        alt="extra info blurb 1" /> 
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="https://shop.saloninteractive.com/store/KBHAIR/product/27272/30723">
-                      <StaticImage 
-                        placeholder='blurred'
-                        className="d-block w-100" 
-                        quality={100} 
-                        aspectRatio={1}
-                        objectFit="cover" 
-                        src="../../content/images/Detangle-LeaveIn-Spray.jpg" 
-                        alt="extra info blurb 2" /> 
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="https://shop.saloninteractive.com/store/KBHAIR/product/15926/19384">
-                      <StaticImage 
-                        placeholder='blurred'
-                        className="d-block w-100" 
-                        quality={100} 
-                        aspectRatio={1}
-                        objectFit="cover" 
-                        src="../../content/images/Deep-Clean-Shampoo-300ml.jpg" 
-                        alt="extra info blurb 3" /> 
-                    </a>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div> */}
+                alt='extra info blurb 3'/> */}
+              <Carousel />
               <div className="extra-info-2-blurb-wrapper">
                 <a href="https://shop.saloninteractive.com/store/KBHAIR/product_categories?group=1">
                   <h1>Browse Shop</h1>

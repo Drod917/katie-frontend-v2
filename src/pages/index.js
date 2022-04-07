@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout/Layout';
+import Footer from '../components/Footer/Footer';
 import Hero from '../components/sections/Hero';
 import Services from '../components/sections/Services';
 import ExtraInfo from '../components/sections/ExtraInfo';

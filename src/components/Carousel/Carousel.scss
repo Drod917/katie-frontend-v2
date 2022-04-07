@@ -1,0 +1,37 @@
+.carousel-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-left {
+    flex: 10%;
+    background-color: black;
+    display: grid;
+    place-items: center;
+
+    svg {
+        stroke: white;
+
+        path {
+            fill: white;
+        }
+    }
+}
+
+.carousel-center {
+}
+
+.carousel-right {
+    flex: 10%;
+    background-color: black;
+    display: grid;
+    place-items: center;
+
+    svg {
+        stroke: white;
+
+        path {
+            fill: white;
+        }
+    }
+}

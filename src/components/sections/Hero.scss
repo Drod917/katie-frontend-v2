@@ -1,3 +1,5 @@
+@use '../styles/variables.scss' as var;
+
 .hero {
     margin-top: 6em;
     margin-bottom: 19em;
@@ -56,7 +58,7 @@
     line-height: 2.5rem;
 
     h1.title {
-        font-family: 'Raleway', sans-serif;
+        font-family: var.$raleway;
         text-align: end;
         font-weight: 700;
         font-size: 1.4rem;
@@ -68,7 +70,7 @@
         margin-top: 0.6em;
         text-align: end;
         font-size: 3.0rem;
-        font-family: 'Playfair Display', serif;
+        font-family: var.$playfair;
         font-weight: 700;
         animation: fade-in 0.5s ease-in-out;
     }

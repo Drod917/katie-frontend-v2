@@ -1,3 +1,5 @@
+@use '../styles/variables.scss' as var;
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,7 +48,7 @@ table {
 // CSS Reset end
 
 html {
-	font-family: 'Raleway', sans-serif;
+	font-family: var.$raleway;
 }
 
 img {
@@ -67,7 +69,7 @@ img {
 
 .bg-colored {
 	// background-color: #b9d9ee;
-	background-color: #212529;
+	background-color: var.$background-color;
 }
 
 h1, p {
@@ -75,22 +77,22 @@ h1, p {
 }
 
 // Landscape phones
-@media screen and (min-width: 576px) {
+@media screen and (min-width: var.$landscape-mobile) {
 
 }
 
 // Tablets
-@media screen and (min-width: 768px) {
+@media screen and (min-width: var.$tablet) {
 
 }
 
 // Large devices (desktops)
-@media screen and (min-width: 992px) {
+@media screen and (min-width: var.$desktop) {
 
 }
 
 // X-large devices
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: var.$widescreen-desktop) {
 	.content-wrapper {
 		margin-left: 16.3em;
 		margin-right: 16.3em;

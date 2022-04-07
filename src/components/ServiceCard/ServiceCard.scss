@@ -1,3 +1,5 @@
+@use '../styles/variables.scss' as var;
+
 .service-card {        
     .card-wrapper {
         display: flex;
@@ -27,7 +29,7 @@
         }
 
         p {
-            font-family: 'Raleway', sans-serif;
+            font-family: var.$raleway;
             font-weight: 100;
             font-style: italic;
             text-align: center;
@@ -38,7 +40,7 @@
         }
 
         .circle-icon {
-            background-color: #212529;
+            background-color: var.$background-color;
             height: 100px;
             width: 100px;
             border-radius: 50%;
